@@ -12,7 +12,7 @@ const emailForm = document.querySelector("#emailForm");
 const copyBtn =document.querySelector("#copyBtn");
 const toast = document.querySelector(".toast");
 const maxAllowedSize = 100*1024*1024;
-const host = "https://inshare.herokuapp.com/"
+const host = "https://insharebynaitik.herokuapp.com/"
 const uploadURL = '${host}api/files';
 const emailURL = '${host}api/files/send';
 
